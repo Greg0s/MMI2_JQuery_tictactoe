@@ -1,0 +1,59 @@
+body{
+	background-color: #2e3131;
+	color : #e8ecf1;
+	font-weight: bold;
+	font-size:1em;
+	font-family: 'Roboto', sans-serif;
+}
+
+#container{
+	margin: auto;
+}
+#gameGrid{
+	margin:auto;
+	width:387px;
+	height:387px;
+	border : 20px solid #e8ecf1;
+	margin-top: 5%;
+	border-radius: 8px;
+}
+.case{
+	height: 125px;
+	width: 125px;
+	float: left;
+	border: solid 2px #3333;
+	cursor:pointer;
+	background-color: green;
+}
+#gridInfo{
+	margin : auto;
+	padding-top: 3em;
+	text-align: center;
+	width:367px;
+	position: relative;
+}
+#bleu{
+	position: absolute;
+	left:0px;
+}
+#rouge{
+	position: absolute;
+	right:0px;
+}
+
+#reset{
+	background-color:#2e3131;
+	color:#e8ecf1;
+	padding:1em;
+	border-radius : 8px;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #e8ecf1;
+	font-size:1em;
+}
+
+#reset:hover{
+	background-color:#e8ecf1;
+	border:none;
+	color : #2e3131;
+	cursor : pointer;
+}
